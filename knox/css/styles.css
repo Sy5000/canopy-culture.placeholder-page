@@ -3571,7 +3571,7 @@ img.u-pull-left {
   }
 
   .s-intro__logo {
-    left: calc(6vw + var(--gutter));
+    right: calc(6vw + var(--gutter));
   }
 
   .s-intro__notify {

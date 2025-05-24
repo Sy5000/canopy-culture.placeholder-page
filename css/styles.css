@@ -1217,6 +1217,16 @@ textarea {
   float: right;
 }
 
+.icon {
+  padding-top: 1.5rem;
+}
+.icon svg {
+  height: var(--vspace-1);
+  width: var(--vspace-1);
+}
+.icon svg path {
+  fill: var(--color-1);
+}
 /* ===================================================================
  * # TYPOGRAPHY 
  *
@@ -1303,7 +1313,7 @@ h3,
 .h3,
 h4,
 .h4 {
-  margin-top: var(--vspace-1_5);
+  margin-top: var(--vspace-0_5);
   margin-bottom: var(--vspace-0_5);
 }
 

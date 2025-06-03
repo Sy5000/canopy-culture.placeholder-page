@@ -1569,6 +1569,12 @@ hr.fancy::before {
   line-height: calc(1.25 * var(--space));
   color: var(--color-text-dark);
 }
+.lead__body {
+  font-family: var(--font-2);
+  font-weight: 300;
+  font-size: var(--text-size);
+  color: var(--color-text-dark);
+}
 
 @media screen and (max-width: 400px) {
   .lead,
@@ -2921,7 +2927,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-intro {
   --header-height: 8.8rem;
-  --logo-width: 78px;
+  --logo-width: 200px;
   --text-display-size: 11.2rem;
   --text-multiplier: 1;
   z-index: 3;
@@ -3544,6 +3550,9 @@ img.u-pull-left {
 }
 
 @media screen and (max-width: 800px) {
+  .s-intro__logo {
+    width: 150px;
+  }
   .s-intro__content .text-huge-title {
     padding-right: 0;
   }
@@ -3619,7 +3628,7 @@ img.u-pull-left {
 
 @media screen and (max-width: 400px) {
   .s-intro {
-    --logo-width: 70px;
+    --logo-width: 125px;
   }
 
   .s-intro__logo {
